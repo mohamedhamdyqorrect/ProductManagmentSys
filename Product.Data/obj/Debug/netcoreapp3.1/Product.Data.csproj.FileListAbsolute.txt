@@ -4,12 +4,6 @@ H:\qorrectassess\assesment\Project\Product.Data\bin\Debug\netcoreapp3.1\Product.
 H:\qorrectassess\assesment\Project\Product.Data\bin\Debug\netcoreapp3.1\Product.Data.runtimeconfig.dev.json
 H:\qorrectassess\assesment\Project\Product.Data\bin\Debug\netcoreapp3.1\Product.Data.dll
 H:\qorrectassess\assesment\Project\Product.Data\bin\Debug\netcoreapp3.1\Product.Data.pdb
-H:\qorrectassess\assesment\Project\Product.Data\obj\Debug\netcoreapp3.1\Product.Data.AssemblyInfoInputs.cache
-H:\qorrectassess\assesment\Project\Product.Data\obj\Debug\netcoreapp3.1\Product.Data.AssemblyInfo.cs
-H:\qorrectassess\assesment\Project\Product.Data\obj\Debug\netcoreapp3.1\Product.Data.csproj.CoreCompileInputs.cache
-H:\qorrectassess\assesment\Project\Product.Data\obj\Debug\netcoreapp3.1\Product.Data.dll
-H:\qorrectassess\assesment\Project\Product.Data\obj\Debug\netcoreapp3.1\Product.Data.pdb
-H:\qorrectassess\assesment\Project\Product.Data\obj\Debug\netcoreapp3.1\Product.Data.genruntimeconfig.cache
 H:\qorrectassess\assesment\Project\Product.Data\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 H:\qorrectassess\assesment\Project\Product.Data\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 H:\qorrectassess\assesment\Project\Product.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
@@ -24,4 +18,10 @@ H:\qorrectassess\assesment\Project\Product.Data\bin\Debug\netcoreapp3.1\System.C
 H:\qorrectassess\assesment\Project\Product.Data\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 H:\qorrectassess\assesment\Project\Product.Data\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 H:\qorrectassess\assesment\Project\Product.Data\obj\Debug\netcoreapp3.1\Product.Data.csprojAssemblyReference.cache
+H:\qorrectassess\assesment\Project\Product.Data\obj\Debug\netcoreapp3.1\Product.Data.AssemblyInfoInputs.cache
+H:\qorrectassess\assesment\Project\Product.Data\obj\Debug\netcoreapp3.1\Product.Data.AssemblyInfo.cs
+H:\qorrectassess\assesment\Project\Product.Data\obj\Debug\netcoreapp3.1\Product.Data.csproj.CoreCompileInputs.cache
 H:\qorrectassess\assesment\Project\Product.Data\obj\Debug\netcoreapp3.1\Product.Data.csproj.CopyComplete
+H:\qorrectassess\assesment\Project\Product.Data\obj\Debug\netcoreapp3.1\Product.Data.dll
+H:\qorrectassess\assesment\Project\Product.Data\obj\Debug\netcoreapp3.1\Product.Data.pdb
+H:\qorrectassess\assesment\Project\Product.Data\obj\Debug\netcoreapp3.1\Product.Data.genruntimeconfig.cache

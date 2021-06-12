@@ -4,78 +4,14 @@
     "H:\\qorrectassess\\assesment\\Project\\ProductApi\\ProductApi.csproj": {}
   },
   "projects": {
-    "H:\\qorrectassess\\assesment\\Project\\Product.Core\\Product.Core.csproj": {
+    "H:\\qorrectassess\\assesment\\Project\\ProductApi\\ProductApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\qorrectassess\\assesment\\Project\\Product.Core\\Product.Core.csproj",
-        "projectName": "Product.Core",
-        "projectPath": "H:\\qorrectassess\\assesment\\Project\\Product.Core\\Product.Core.csproj",
+        "projectUniqueName": "H:\\qorrectassess\\assesment\\Project\\ProductApi\\ProductApi.csproj",
+        "projectName": "ProductApi",
+        "projectPath": "H:\\qorrectassess\\assesment\\Project\\ProductApi\\ProductApi.csproj",
         "packagesPath": "C:\\Users\\MHS\\.nuget\\packages\\",
-        "outputPath": "H:\\qorrectassess\\assesment\\Project\\Product.Core\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\MHS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "H:\\qorrectassess\\assesment\\Project\\Product.Data\\Product.Data.csproj": {
-                "projectPath": "H:\\qorrectassess\\assesment\\Project\\Product.Data\\Product.Data.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "H:\\qorrectassess\\assesment\\Project\\Product.Data\\Product.Data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "H:\\qorrectassess\\assesment\\Project\\Product.Data\\Product.Data.csproj",
-        "projectName": "Product.Data",
-        "projectPath": "H:\\qorrectassess\\assesment\\Project\\Product.Data\\Product.Data.csproj",
-        "packagesPath": "C:\\Users\\MHS\\.nuget\\packages\\",
-        "outputPath": "H:\\qorrectassess\\assesment\\Project\\Product.Data\\obj\\",
+        "outputPath": "H:\\qorrectassess\\assesment\\Project\\ProductApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -110,76 +46,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.7, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "H:\\qorrectassess\\assesment\\Project\\ProductApi\\ProductApi.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "H:\\qorrectassess\\assesment\\Project\\ProductApi\\ProductApi.csproj",
-        "projectName": "ProductApi",
-        "projectPath": "H:\\qorrectassess\\assesment\\Project\\ProductApi\\ProductApi.csproj",
-        "packagesPath": "C:\\Users\\MHS\\.nuget\\packages\\",
-        "outputPath": "H:\\qorrectassess\\assesment\\Project\\ProductApi\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\MHS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "H:\\qorrectassess\\assesment\\Project\\Product.Core\\Product.Core.csproj": {
-                "projectPath": "H:\\qorrectassess\\assesment\\Project\\Product.Core\\Product.Core.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
             "IdentityServer4.AccessTokenValidation": {
               "target": "Package",
               "version": "[3.0.1, )"
@@ -197,10 +63,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.15, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[3.1.5, )"
             }
           },
           "imports": [

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using static Product.Core.ServiceResult;
+//using static Product.Core.ServiceResult;
 
 namespace ProductApi.Controllers.Shared
 {

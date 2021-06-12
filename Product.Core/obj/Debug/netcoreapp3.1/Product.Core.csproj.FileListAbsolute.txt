@@ -1,7 +1,3 @@
-H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.csprojAssemblyReference.cache
-H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.AssemblyInfoInputs.cache
-H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.AssemblyInfo.cs
-H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.csproj.CoreCompileInputs.cache
 H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Product.Data.exe
 H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Product.Core.exe
 H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Product.Core.deps.json
@@ -9,12 +5,6 @@ H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Product.
 H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Product.Core.runtimeconfig.dev.json
 H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Product.Core.dll
 H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Product.Core.pdb
-H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Product.Data.dll
-H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Product.Data.pdb
-H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.csproj.CopyComplete
-H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.dll
-H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.pdb
-H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.genruntimeconfig.cache
 H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
@@ -28,3 +18,13 @@ H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Microsof
 H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Product.Data.dll
+H:\qorrectassess\assesment\Project\Product.Core\bin\Debug\netcoreapp3.1\Product.Data.pdb
+H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.csprojAssemblyReference.cache
+H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.AssemblyInfoInputs.cache
+H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.AssemblyInfo.cs
+H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.csproj.CoreCompileInputs.cache
+H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.csproj.CopyComplete
+H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.dll
+H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.pdb
+H:\qorrectassess\assesment\Project\Product.Core\obj\Debug\netcoreapp3.1\Product.Core.genruntimeconfig.cache

@@ -8,28 +8,29 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 //using Product.Core;
 using ProductApi.Models;
-using Product.Core;
-using ProductApi.Controllers.Shared;
+//using Product.Core;
+//using ProductApi.Controllers.Shared;
 
 namespace ProductApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductDetailsController : BaseController
+    public class ProductDetailsController :ControllerBase //BaseController
     {
         private readonly ProductContext _context;
-        private readonly Lazy<IProductService> _ProductService;
+       // private readonly Lazy<IProductService> _ProductService;
        
         // private IProductService productService;
 
-        public ProductDetailsController(ProductContext context, Lazy<IProductService> ProductService)// IProductService productService
+        public ProductDetailsController(ProductContext context
+           // , Lazy<IProductService> ProductService
+            )// IProductService productService
         {
             _context = context;
-            _ProductService = ProductService;
-            // this.productService = productService;
+           // _ProductService = ProductService;
         }
-        private IProductService ProductService => _ProductService.Value;
-        //  private ITagService TagService => _tagService.Value;GET: api/ProductDetails
+       // private IProductService ProductService => _ProductService.Value;
+        // GET: api/ProductDetails
         [HttpGet]
         //[Authorize]
         public async Task<ActionResult<IEnumerable<ProductDetail>>> GetProductDetails()
@@ -50,11 +51,11 @@ namespace ProductApi.Controllers
 
             return productDetail;
         }
-        public async Task<IActionResult> GetTagsList( int page = 1, int pageSize = 10, string searchText = null)
-        {
-            var result = await ProductService.GetProductList(page, pageSize,  searchText);
-            return GetApiResponse(result, page, pageSize );
-        }
+        //public async Task<IActionResult> GetTagsList( int page = 1, int pageSize = 10, string searchText = null)
+        //{
+        //    var result = await ProductService.GetProductList(page, pageSize,  searchText);
+        //    return GetApiResponse(result, page, pageSize );
+        //}
         // GET: api/ProductDetails/5
         // [HttpGet("/GetProductByID/{id}")]
         // [Route("getw/{id}")]
