@@ -1,0 +1,78 @@
+<!-- <h5>{{title}}</h5> -->
+<p>product detail form </p>
+<form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)">
+    <input type="hidden" name="productDetailId" [value]="formData.productDetailId" />
+    <!-- <input type="hidden" name="productTypeID" [value]="formData.productTypeID" /> -->
+    <div class="form-group">
+        <label>Title</label>
+        <input class="form-control form-control-lg" placeholder=" Title " name="title"
+            #title="ngModel" [(ngModel)]="formData.title"
+            required [class.invalid]="title.invalid &#038;&#038; title.touched">
+    </div>
+    <div class="form-row"><div class="form-group col-md-6">
+        <label>Quantity</label>
+        <input type="number" class="form-control form-control-lg" placeholder=" Quantity " name="quantity"
+            #quantity="ngModel" [(ngModel)]="formData.quantity"
+            required maxlength="99999999" minlength="0" [class.invalid]="quantity.invalid &#038;&#038; quantity.touched">
+    </div>
+    
+        <div class="form-group col-md-6">
+            <label>Unit Price</label>
+            <input type="number" class="form-control form-control-lg" placeholder=" Unit Price " name="unitPrice"
+                #unitPrice="ngModel" [(ngModel)]="formData.unitPrice"
+                required maxlength="2" minlength="1" [class.invalid]="unitPrice.invalid &#038;&#038; unitPrice.touched">
+        </div>
+        
+    </div>
+    <div class="form-row"><div class="form-group col-md-6">
+        <label>product Type </label>
+       
+            <select class=" form-control form-control-lg" [(ngModel)]="formData.productTypeID"  required
+            [class.invalid]="productType.invalid &#038;&#038; productType.touched  &#038;&#038; productType.value !=0 "
+            #productType="ngModel" name="cproductType">
+            <option selected value="0" disabled>select product Type  </option>
+                <option *ngFor="let cat of PrdTypes" [value]="cat.productTypeId">{{cat.title}}</option>
+            </select>
+            <!-- <div class="text-danger"
+                *ngIf="this.catForm.get('catId').value ==0 && this.catForm.get('catId').touched">
+                {{messageValidate.catId.required}}
+          </div> -->
+       
+       <!--    <input type="number" class="form-control form-control-lg" placeholder=" productTypeID " name="productTypeID"
+            #productTypeID="ngModel" [(ngModel)]="formData.productTypeID"
+            required maxlength="99999999" minlength="0" [class.invalid]="productTypeID.invalid &#038;&#038; productTypeID.touched"> -->
+    </div>
+    <!-- <div class="form-row">
+        <div class="col-md-8">
+            <div class="input-group mb-3">
+                <div class="custom-file">
+                    <input type="file" formControlName="actorImage" accept="image/*"
+                        class="custom-file-input" id="actorImage" (change)="HandleFiles($event)"
+                        aria-describedby="inputGroupFileAddon01">
+                    <label class="custom-file-label upload-lbl" for="actorImage">
+                        <span *ngIf="img !== null">{{img.name}}</span>
+                        <span *ngIf="img === null">اختر صورة</span>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="text-danger" *ngIf="this.actorForm.get('actorImage').touched && img === null">
+              Image Required
+            </div>
+        </div>
+        <div class="col-md-4">
+            <img id="image" class="img-fluid rounded border bg-light" [src]="urlImage" />
+        </div>
+    </div> -->
+        <div class="form-group col-md-6">
+            <label>discount Percent</label>
+            <input type="number" class="form-control form-control-lg" placeholder="discount Percent " name="discountPercent"
+                #discountPercent="ngModel" [(ngModel)]="formData.discountPercent"
+                required maxlength="2" minlength="1" [class.invalid]="discountPercent.invalid &#038;&#038; discountPercent.touched">
+        </div>
+        
+    </div>
+    <div class="form-group">
+        <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">SUBMIT</button>
+    </div>
+</form>

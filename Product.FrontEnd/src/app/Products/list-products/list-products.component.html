@@ -1,0 +1,21 @@
+<div class="row "><p>list of products </p>
+</div>
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th>Title</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th><button type="button" class="btn btn-primary " (click)="AddItem()">New </button></th>
+        </tr>
+    </thead>
+    <tr *ngFor="let pd of service.list">
+        <td (click)="populateForm(pd.productDetailId)">{{pd.title}}</td>
+        <td>{{pd.quantity}}</td>
+        <td>{{pd.unitPrice}}</td>
+        <td>
+            <i class="fa fa-trash fa-2x text-danger" aria-hidden="true" (click)="onDelete(pd.productDetailId)"></i>
+          
+        </td>
+    </tr>
+</table>
